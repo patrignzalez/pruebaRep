@@ -20,6 +20,12 @@ public class Date {
   private final int day;
   private final int month;
   private final int year;
+  // Constructor modified by the collaborator
+  public Date(int tag, int monat, int jahr) {
+    this.day = tag;
+    this.month = monat;
+    this.year = jahr;
+  }
   public void methodAddedByOwner(){
     System.out.println("Method added by the owner");
   }
